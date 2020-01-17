@@ -35,6 +35,7 @@ To learn more: https://medium.com/@wkrzywiec/build-and-run-angular-application-i
 1. Confirm that you have run your docker build before pushing your image to the remote repository.
 2. To push your image to your repository run: `docker push andrewcknight/angular-docker-test`
     (you will need to login to Docker first)
+3. Find the example repsoitory here: https://hub.docker.com/repository/docker/andrewcknight/angular-docker-test
 
 
 # More with Angular
