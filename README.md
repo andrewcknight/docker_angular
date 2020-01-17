@@ -18,6 +18,20 @@
 4. git remote add origin URL_GOES_HERE
 5. git push -u origin master
 
+# Create Angular Docker Image
+1. Create Dockerfile - use name "Dockerfile" or your own custom name
+    See example Dockerfile to understand how the nginx dependency is pulled in
+2. Create a .dockerignore file (similar to .gitignore) to define which files and folders we want Docker to ignore.
+3. Run docker build: `docker build -t andrewcknight/angular-docker-test .` (don't forget the period!)
+4. Verify image creation by running: `docker image ls`
+5. Run docker image: `docker run --name angular-docker-test-app-container -d -p 8080:80 andrewcknight/angular-docker-test`
+6. Confirm the container is running at: http://localhost:8080
+
+To learn more: https://medium.com/@wkrzywiec/build-and-run-angular-application-in-a-docker-container-b65dbbc50be8
+
+# Commit Docker Image to Repository
+
+
 # AngularDockerTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
