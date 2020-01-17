@@ -11,6 +11,13 @@
 3. For additional options: https://material.angular.io/guide/getting-started#install-angular-material
 4. To run application: ng serve
 
+# Commit to GIT repository
+1. git init
+2. git add *
+3. git commit -m "first commit"
+4. git remote add origin URL_GOES_HERE
+5. git push -u origin master
+
 # AngularDockerTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
