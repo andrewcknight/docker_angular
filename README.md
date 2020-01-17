@@ -1,3 +1,16 @@
+# Create Angular Application
+1. Create project folder
+2. Navigate to the folder
+3. Run to install Angular CLI: npm install -g @angular/cli
+4. Run to create project: ng new project-name --directory ./ (directory piece if you want flat creation)
+5. To run application: ng serve
+
+# Add Angular Material
+1. Navigate to project folder
+2. Run: ng add @angular/material
+3. For additional options: https://material.angular.io/guide/getting-started#install-angular-material
+4. To run application: ng serve
+
 # AngularDockerTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
