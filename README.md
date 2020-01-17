@@ -1,24 +1,26 @@
-# Create Angular Application
+# Angular & Docker
+
+## Create Angular Application
 1. Create project folder
 2. Navigate to the folder
 3. Run to install Angular CLI: npm install -g @angular/cli
 4. Run to create project: ng new project-name --directory ./ (directory piece if you want flat creation)
 5. To run application: ng serve
 
-# Add Angular Material
+## Add Angular Material
 1. Navigate to project folder
 2. Run: ng add @angular/material
 3. For additional options: https://material.angular.io/guide/getting-started#install-angular-material
 4. To run application: ng serve
 
-# Commit to GIT repository
+## Commit to GIT repository
 1. git init
 2. git add *
 3. git commit -m "first commit"
 4. git remote add origin URL_GOES_HERE
 5. git push -u origin master
 
-# Create Angular Docker Image
+## Create Angular Docker Image
 1. Create Dockerfile - use name "Dockerfile" or your own custom name
     See example Dockerfile to understand how the nginx dependency is pulled in
 2. Create a .dockerignore file (similar to .gitignore) to define which files and folders we want Docker to ignore.
@@ -29,10 +31,13 @@
 
 To learn more: https://medium.com/@wkrzywiec/build-and-run-angular-application-in-a-docker-container-b65dbbc50be8
 
-# Commit Docker Image to Repository
+## Commit Docker Image to Repository
+1. Confirm that you have run your docker build before pushing your image to the remote repository.
+2. To push your image to your repository run: `docker push andrewcknight/angular-docker-test`
+    (you will need to login to Docker first)
 
 
-# AngularDockerTest
+# More with Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
 
